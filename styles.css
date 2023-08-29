@@ -1,0 +1,160 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+:root{
+
+--dark-slate-blue: #393E8F;
+--upsdell-red: #B12228;
+--crayolas-orange-yellow: #F3CC64;
+--medium-champagne:#FEECAE;
+--oxford-blue: #12194A;
+}
+
+
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    margin: 0px;
+}
+#hero{
+    /*top section picture and titles*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Bolton_Arch_and_Town_Hall.jpg/1200px-Bolton_Arch_and_Town_Hall.jpg?20080815105834"),linear-gradient(95deg, #5c5c8a 3%, #9a6e8d 35%, #bc865c 65%, #7f847b 85%, #5c5c8a 96%);
+
+}
+
+#main-nav{
+   margin: auto 0px;
+    text-shadow: 0 0 3px white;
+  display: flex;
+    justify-content: space-around;
+    align-items: start;
+  
+}
+
+.c-site-header{
+    margin: 30px;
+    background: var(--dark-slate-blue);
+    padding: 4px 40px;
+    border-radius: 14px;
+}
+.hero-subtitle{
+    margin: 100px 0 40px 0;
+    /*background: var(--crayolas-orange-yellow);*/
+      background: var 2a9d8f;
+      
+    padding: 4px 12px;
+    border-radius: 14px;
+}
+
+#activities{
+   /*middle section pictures of activities with descriptions
+   need this so that a background color shows beyond the 
+   box constraining the activities*/
+      background = #8ebabe;
+}
+.activities-box{
+    /*this box constrains the activity columns to match
+    the width of the hero section*/
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+/*keep same width as banner picture*/
+    width: 900px;
+    margin:auto;
+    padding: 60px 0px;
+     background = #8ebabe;
+    color: var(--oxford-blue);
+}
+.activity{
+    /*each activity picture and description section*/
+    width: 200px;
+}
+.activity-img{
+    /*individual activity image designed to be in a round circle*/
+    border-radius: 20%;
+    width: 200px;
+}
+
+#yourguide{
+    /*displays one or more 'card's introducing people*/
+    padding: 60px 0px;
+    background-color: whitesmoke;
+}
+.guide-card{
+    /* creates the framing 'card' on which the guide contents sits*/
+    width: 425px;
+    margin: 30px  auto;
+    padding: 15px;
+
+    display: flex;/*allows the img and text to sit side by side*/
+    justify-content: space-around;
+
+    background: var(--dark-slate-blue);
+    border-bottom: 10px solid var(--upsdell-red);
+    border-radius: 6px;
+}
+.guide-img{
+    /*the guide picture*/
+    width: 180px;
+    height: 180px;
+    border-radius: 6px;
+    margin: 25px 15px 25px 0px;
+
+}
+.guideinfo{
+    /*the guide's info and descriptive text*/
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#bonus{
+    color:var(--oxford-blue);
+    background:whitesmoke;
+}
+.bonus-banner{
+    background-image: linear-gradient(95deg, #5c5c8a 3%, #9a6e8d 35%, #bc865c 65%, #7f847b 85%, #5c5c8a 96%);
+    height: 75px;
+}
+.bonus-banner h1{
+    margin: auto 0px;
+    padding: 20px;
+    text-shadow: 0 0 3px white;
+}
+.bonus-info{
+    width: 500px;
+    margin: auto;
+}
+.c-site-footer{
+  margin: auto 0px;
+    padding: 20px;
+    text-shadow: 0 0 3px gray;
+  color: black;
+  
+}
